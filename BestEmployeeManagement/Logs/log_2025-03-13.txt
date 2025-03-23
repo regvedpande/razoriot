@@ -1,0 +1,2 @@
+13-Mar-2025 11:27:46 - Error in RegisterUser: Violation of UNIQUE KEY constraint 'UQ__UserRegi__536C85E4D7BE690D'. Cannot insert duplicate key in object 'dbo.UserRegistration'. The duplicate key value is (ayush).
+13-Mar-2025 11:28:04 - Error in RegisterUser: Violation of UNIQUE KEY constraint 'UQ__UserRegi__536C85E4D7BE690D'. Cannot insert duplicate key in object 'dbo.UserRegistration'. The duplicate key value is (ayush).

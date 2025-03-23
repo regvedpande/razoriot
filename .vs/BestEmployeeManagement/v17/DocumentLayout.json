@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\EmployeeList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Views\\Employee\\EmployeeList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|c:\\users\\regre\\downloads\\bestemployeemanagement\\bestemployeemanagement\\views\\employee\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\views\\employee\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\views\\employee\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\views\\employee\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Helpers\\CryptoHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Helpers\\CryptoHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Helpers\\Logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Helpers\\Logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\dal\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\dal\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\UserDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\DAL\\UserDAL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\RoleModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\RoleModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\PositionModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\PositionModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\models\\errorlogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\models\\errorlogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\BranchModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\BranchModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Login\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Views\\Login\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Login\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Views\\Login\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ForgotPasswordModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\ForgotPasswordModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\EmployeeTypeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\EmployeeTypeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\DepartmentModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\DepartmentModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\bestemployeemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:bestemployeemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\EmployeeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\EmployeeModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\ReferenceDataModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\DAL\\ReferenceDataModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\AddForm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BestEmployeeManagement\\Views\\Employee\\AddForm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\RegisterUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\RegisterUserModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Views\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\UserRegistrationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\UserRegistrationModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ResponseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Models\\ResponseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42E423F-5CD0-4E4F-BB8B-962FD97677E3}|BestEmployeeManagement\\BestEmployeeManagement.csproj|solutionrelative:BestEmployeeManagement\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:58:39.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:57:20.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CryptoHelper.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Helpers\\CryptoHelper.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Helpers\\CryptoHelper.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Helpers\\CryptoHelper.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Helpers\\CryptoHelper.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:02:27.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeDAL.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\EmployeeDAL.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\DAL\\EmployeeDAL.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\EmployeeDAL.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\DAL\\EmployeeDAL.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAD4v9MAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:59:42.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:22:28.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Helpers\\Logger.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Helpers\\Logger.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Helpers\\Logger.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Helpers\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:02:43.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:04:03.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeList.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\EmployeeList.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Employee\\EmployeeList.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\EmployeeList.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Employee\\EmployeeList.cshtml",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAIwJEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T09:15:31.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\AddEmployee.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Employee\\AddEmployee.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\AddEmployee.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Employee\\AddEmployee.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwGMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:03:31.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\EditEmployee.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Employee\\EditEmployee.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\EditEmployee.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Employee\\EditEmployee.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:03:49.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAtwFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:57:49.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\DAL\\UserDAL.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\DAL\\UserDAL.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAD4v0cAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:00:29.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Web.config",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Web.config",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Web.config",
+              "RelativeToolTip": "BestEmployeeManagement\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-13T05:59:25.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\RoleModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\RoleModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\RoleModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\RoleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:52:46.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PositionModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\PositionModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\PositionModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\PositionModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\PositionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:51:37.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorLogModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ErrorLogModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\ErrorLogModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ErrorLogModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\ErrorLogModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:55:23.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BranchModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\BranchModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\BranchModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\BranchModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\BranchModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:53:46.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Login\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:04:38.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:04:23.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\ForgotPasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:00:08.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeTypeModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\EmployeeTypeModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\EmployeeTypeModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\EmployeeTypeModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\EmployeeTypeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:52:12.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DepartmentModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\DepartmentModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\DepartmentModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\DepartmentModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\DepartmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:53:10.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:08:12.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\EmployeeModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:54:16.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReferenceDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\ReferenceDataModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\DAL\\ReferenceDataModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\DAL\\ReferenceDataModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\DAL\\ReferenceDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:19:36.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:06:43.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\RegisterUserModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\RegisterUserModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\RegisterUserModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\RegisterUserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:56:20.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:03:15.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRegistrationModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\UserRegistrationModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\UserRegistrationModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\UserRegistrationModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\UserRegistrationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:54:51.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Models\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "BestEmployeeManagement\\Models\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T05:55:52.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAkwGsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T06:14:06.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\AddForm.cshtml",
+              "RelativeDocumentMoniker": "BestEmployeeManagement\\Views\\Employee\\AddForm.cshtml",
+              "ToolTip": "C:\\Users\\regre\\Downloads\\BestEmployeeManagement\\BestEmployeeManagement\\Views\\Employee\\AddForm.cshtml",
+              "RelativeToolTip": "BestEmployeeManagement\\Views\\Employee\\AddForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T08:32:22.848Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+﻿@@model BestEmployeeManagement.Models.EmployeeModel
+@{
+    ViewBag.Title = "Edit Employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-container">
+    <form id="editEmployeeForm" class="employee-form">
+        <h2 class="page-title">Edit Employee</h2>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="FirstName">First Name</label>
+                <input type="text" id="FirstName" name="FirstName" value="@Model.FirstName" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="LastName">Last Name</label>
+                <input type="text" id="LastName" name="LastName" value="@Model.LastName" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" value="@Model.Email" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="DateOfBirth">Date of Birth</label>
+                <input type="date" id="DateOfBirth" name="DateOfBirth" value="@Model.DateOfBirth.ToString("yyyy-MM-dd")" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="PhoneNumber">Phone Number</label>
+                <input type="text" id="PhoneNumber" name="PhoneNumber" value="@Model.PhoneNumber" class="form-control" pattern="\d{10}" required />
+            </div>
+            <div class="form-group gender-group">
+                <label>Gender</label>
+                <div class="gender-options">
+                    <div class="form-check-inline">
+                        <input type="radio" id="Male" name="Gender" value="Male" @(Model.Gender == "Male" ? "checked" : "") class="form-check-input" required />
+                        <label for="Male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" id="Female" name="Gender" value="Female" @(Model.Gender == "Female" ? "checked" : "") class="form-check-input" required />
+                        <label for="Female" class="form-check-label">Female</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" id="Other" name="Gender" value="Other" @(Model.Gender == "Other" ? "checked" : "") class="form-check-input" required />
+                        <label for="Other" class="form-check-label">Other</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <label for="Address">Address</label>
+                <textarea id="Address" name="Address" class="form-control" rows="3">@Model.Address</textarea>
+            </div>
+            <div class="form-group">
+                <label for="PositionId">Position</label>
+                <select id="PositionId" name="PositionId" class="form-control" required>
+                    @foreach (var position in ViewBag.Positions)
+                    {
+                        <option value="@position.PositionId" @(Model.PositionId == position.PositionId ? "selected" : "")>@position.PositionName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="DepartmentId">Department</label>
+                <select id="DepartmentId" name="DepartmentId" class="form-control" required>
+                    @foreach (var department in ViewBag.Departments)
+                    {
+                        <option value="@department.DepartmentId" @(Model.DepartmentId == department.DepartmentId ? "selected" : "")>@department.DepartmentName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="JoiningDate">Joining Date</label>
+                <input type="date" id="JoiningDate" name="JoiningDate" value="@Model.JoiningDate.ToString("yyyy-MM-dd")" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="Salary">Salary</label>
+                <input type="number" id="Salary" name="Salary" value="@Model.Salary" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="EmployeeTypeId">Employee Type</label>
+                <select id="EmployeeTypeId" name="EmployeeTypeId" class="form-control" required>
+                    @foreach (var employeeType in ViewBag.EmployeeTypes)
+                    {
+                        <option value="@employeeType.EmployeeTypeId" @(Model.EmployeeTypeId == employeeType.EmployeeTypeId ? "selected" : "")>@employeeType.TypeName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="BranchId">Branch</label>
+                <select id="BranchId" name="BranchId" class="form-control" required>
+                    @foreach (var branch in ViewBag.Branches)
+                    {
+                        <option value="@branch.BranchId" @(Model.BranchId == branch.BranchId ? "selected" : "")>@branch.BranchName</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn btn-primary">Update Employee</button>
+        </div>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // AJAX form submission
+        $('#editEmployeeForm').submit(function (e) {
+            e.preventDefault();
+            var formData = $(this).serialize();
+            $.ajax({
+                url: '@Url.Action("EditEmployee", "Employee")',
+                type: 'POST',
+                data: formData,
+                success: function (response) {
+                    if (response.Status) {
+                        alert('Employee updated successfully.');
+                        window.location.href = '@Url.Action("Index", "Employee")';
+                    } else {
+                        alert('Error: ' + response.Message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert('An error occurred while updating the employee: ' + error);
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-title {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        color: #4a90e2;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .full-width {
+        grid-column: span 3;
+    }
+
+    .gender-group {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .gender-options {
+        display: flex;
+        gap: 15px;
+    }
+
+    .form-control {
+        padding: 10px;
+        font-size: 0.9rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+    }
+
+    .form-check-inline {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .form-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+</style>

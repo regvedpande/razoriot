@@ -1,0 +1,9 @@
+17-Dec-2024 12:17:21 - Error in UserLogin: Specified cast is not valid.
+17-Dec-2024 12:19:00 - Error in UserLogin: Specified cast is not valid.
+17-Dec-2024 13:26:53 - Error in AddEmployee: Procedure or function 'sp_InsertEmployee' expects parameter '@CreatedBy', which was not supplied.
+17-Dec-2024 13:34:34 - Error in AddEmployee: Procedure or function 'sp_InsertEmployee' expects parameter '@CreatedBy', which was not supplied.
+17-Dec-2024 13:42:13 - Error in AddEmployee: Procedure or function 'sp_InsertEmployee' expects parameter '@CreatedBy', which was not supplied.
+17-Dec-2024 13:52:09 - Error in AddEmployee: Procedure or function 'sp_InsertEmployee' expects parameter '@CreatedBy', which was not supplied.
+17-Dec-2024 13:54:09 - Error in AddEmployee: Procedure or function 'sp_InsertEmployee' expects parameter '@CreatedBy', which was not supplied.
+17-Dec-2024 13:55:53 - Error in AddEmployee: Procedure or function 'sp_InsertEmployee' expects parameter '@CreatedBy', which was not supplied.
+17-Dec-2024 14:21:05 - Error in AddEmployee: Procedure or function 'sp_InsertEmployee' expects parameter '@CreatedBy', which was not supplied.

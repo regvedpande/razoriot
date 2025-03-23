@@ -1,0 +1,264 @@
+﻿@model BestEmployeeManagement.Models.EmployeeModel
+@{
+    ViewBag.Title = "Add Employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-container">
+    <form id="addEmployeeForm" class="employee-form">
+        <h2 class="page-title">Add Employee</h2>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="FirstName">First Name</label>
+                <input type="text" id="FirstName" name="FirstName" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="LastName">Last Name</label>
+                <input type="text" id="LastName" name="LastName" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="DateOfBirth">Date of Birth</label>
+                <input type="date" id="DateOfBirth" name="DateOfBirth" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="PhoneNumber">Phone Number</label>
+                <input type="text" id="PhoneNumber" name="PhoneNumber" class="form-control" pattern="\d{10}" required />
+            </div>
+            <div class="form-group gender-group">
+                <label>Gender</label>
+                <div class="gender-options">
+                    <div class="form-check-inline">
+                        <input type="radio" id="Male" name="Gender" value="Male" class="form-check-input" required />
+                        <label for="Male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" id="Female" name="Gender" value="Female" class="form-check-input" required />
+                        <label for="Female" class="form-check-label">Female</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" id="Other" name="Gender" value="Other" class="form-check-input" required />
+                        <label for="Other" class="form-check-label">Other</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <label for="Address">Address</label>
+                <textarea id="Address" name="Address" class="form-control" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="PositionId">Position</label>
+                <select id="PositionId" name="PositionId" class="form-control" required></select>
+            </div>
+            <div class="form-group">
+                <label for="DepartmentId">Department</label>
+                <select id="DepartmentId" name="DepartmentId" class="form-control" required></select>
+            </div>
+            <div class="form-group">
+                <label for="JoiningDate">Joining Date</label>
+                <input type="date" id="JoiningDate" name="JoiningDate" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="Salary">Salary</label>
+                <input type="number" id="Salary" name="Salary" class="form-control" required />
+            </div>
+            <div class="form-group">
+                <label for="EmployeeTypeId">Employee Type</label>
+                <select id="EmployeeTypeId" name="EmployeeTypeId" class="form-control" required></select>
+            </div>
+            <div class="form-group">
+                <label for="BranchId">Branch</label>
+                <select id="BranchId" name="BranchId" class="form-control" required></select>
+            </div>
+            <div class="form-group">
+                <label for="CreatedBy">Created By</label>
+                <input type="text" id="CreatedBy" name="CreatedBy" class="form-control" required />
+            </div>
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn btn-primary">Add Employee</button>
+        </div>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Fetch dropdown data
+        function populateDropdown(url, dropdownId) {
+            $.getJSON(url, function (data) {
+                var dropdown = $(dropdownId);
+                dropdown.empty();
+                $.each(data, function (index, item) {
+                    dropdown.append($('<option></option>').val(item[Object.keys(item)[0]]).html(item[Object.keys(item)[1]]));
+                });
+            });
+        }
+
+        populateDropdown('@Url.Action("GetPositions", "Employee")', '#PositionId');
+        populateDropdown('@Url.Action("GetDepartments", "Employee")', '#DepartmentId');
+        populateDropdown('@Url.Action("GetEmployeeTypes", "Employee")', '#EmployeeTypeId');
+        populateDropdown('@Url.Action("GetBranches", "Employee")', '#BranchId');
+
+        // AJAX form submission
+        $('#addEmployeeForm').submit(function (e) {
+            e.preventDefault();
+            var formData = $(this).serialize();
+            $.ajax({
+                url: '@Url.Action("AddEmployee", "Employee")',
+                type: 'POST',
+                data: formData,
+                success: function (response) {
+                    if (response.Status) {
+                        alert('Employee added successfully.');
+                        window.location.href = '@Url.Action("Index", "Employee")';
+                    } else {
+                        alert('Error: ' + response.Message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert('An error occurred while adding the employee: ' + error);
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: hsl(220, 14%, 96%);
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 24px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        border: 1px solid hsl(214.3, 31.8%, 91.4%);
+    }
+
+    .page-title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 24px;
+        color: hsl(222.2, 47.4%, 11.2%);
+        font-weight: 600;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .full-width {
+        grid-column: span 3;
+    }
+
+    .gender-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .gender-options {
+        display: flex;
+        gap: 16px;
+    }
+
+    .form-control {
+        padding: 10px 12px;
+        font-size: 14px;
+        border: 1px solid hsl(214.3, 31.8%, 91.4%);
+        border-radius: 6px;
+        width: 100%;
+        background-color: white;
+        color: hsl(222.2, 47.4%, 11.2%);
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: hsl(221.2, 83.2%, 53.3%);
+            box-shadow: 0 0 0 3px hsla(221.2, 83.2%, 53.3%, 0.25);
+        }
+
+    select.form-control {
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        padding-right: 36px;
+    }
+
+    label {
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(215.4, 16.3%, 46.9%);
+    }
+
+    .form-check-inline {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .form-check-input {
+        width: 16px;
+        height: 16px;
+        margin: 0;
+    }
+
+    .form-check-label {
+        font-size: 14px;
+        color: hsl(222.2, 47.4%, 11.2%);
+    }
+
+    .form-buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 24px;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1;
+        transition: all 0.2s ease;
+        padding: 10px 16px;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: hsl(221.2, 83.2%, 53.3%);
+        color: white;
+        border: 1px solid hsl(221.2, 83.2%, 53.3%);
+    }
+
+        .btn-primary:hover {
+            background-color: hsl(221.2, 83.2%, 47%);
+            border-color: hsl(221.2, 83.2%, 47%);
+        }
+</style>
